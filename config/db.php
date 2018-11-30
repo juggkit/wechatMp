@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=wechatMp',
-    'username' => 'root',
-    'password' => 'root@123',
+    'dsn' => 'mysql:host=localhost;dbname=',
+    'username' => '',
+    'password' => '',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
