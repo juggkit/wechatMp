@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=wechatMp',
+    'dsn' => 'mysql:host=www.crodering.top;dbname=wechatMp',
     'username' => 'root',
     'password' => 'root@123',
     'charset' => 'utf8',

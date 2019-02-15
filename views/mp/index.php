@@ -7,7 +7,9 @@ use yii\widgets\LinkPager;
 <?php foreach ($list as $v): ?>
     <li>
        
-        <a href="<?=$baseUrl?>/index.php?r=mp/detail&name=<?= $v->name ?>" target="_blank"> <?= $v->name ?></a>
+        <a href="<?=$baseUrl?>/index.php?r=mp/detail&name=<?= $v->name ?>" target="_blank"> 
+        	<?= $v->name ?>
+        </a>
     </li>
 <?php endforeach; ?>
 </ul>
